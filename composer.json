@@ -1,14 +1,22 @@
 {
-    "name": "delboy1978uk/twig-icon",
-    "description": "A Twig adapter for delboy1978uk/icon",
-    "require": {
-        "delboy1978uk/icon": "^1.0",
-        "twig/twig": "1.24.0"
-    },
-    "authors": [
-        {
-            "name": "Derek Stephen McLean",
-            "email": "delboy1978uk@gmail.com"
-        }
-    ]
+  "name": "delboy1978uk/twig-icon",
+  "description": "A Twig adapter for delboy1978uk/icon",
+  "require": {
+    "delboy1978uk/icon": "^1.0",
+    "twig/twig": "1.24.0"
+  },
+  "require-dev":{
+        "codeception/codeception":"dev-master"
+  },
+  "authors": [
+    {
+      "name": "Derek Stephen McLean",
+      "email": "delboy1978uk@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Del\\": "src/"
+    }
+  }
 }
